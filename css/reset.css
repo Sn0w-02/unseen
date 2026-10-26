@@ -1,5 +1,8 @@
 @charset "utf-8";
 
+@import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/variable/pretendardvariable.css");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+
 html,
 head,
 body,
@@ -90,18 +93,4 @@ table {
 body {
     font-family: "Pretendard Variable", Pretendard, "Inter", -apple-system, BlinkMacSystemFont, system-ui, Roboto, "Helvetica Neue", "Segoe UI", "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
     color: rgba(0, 0, 0, 0.8);
-}
-
-@font-face {
-    font-family: "Pretendard";
-    src: url("../assets/fonts/PretendardVariable.woff2") format("woff2");
-    font-weight: 100 900;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: "Inter";
-    src: url("../assets/fonts/InterVariable.ttf") format("truetype");
-    font-weight: 100 900;
-    font-display: swap;
 }
